@@ -1,3 +1,5 @@
-let titleElement = document.getElementById("test");
-let random = Math.floor(Math.random() * 100);
-titleElement.innerHTML = random;
+let teacher = document.querySelectorAll("#teacher")
+for (const world of teacher) {
+    world.innerHTML = "HELLO USTOZ";
+}
+console.log(teacher);
